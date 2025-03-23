@@ -1,0 +1,38 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>LDS Temples</title>
+
+    <!-- Google font: Cinzel for header -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+
+    <!-- api key for arcGis -->
+    <script>
+      var esriConfig = {
+        apiKey: "AAPTxy8BH1VEsoebNVZXo8HurKOfKsm0t6tzh37HkwpjpCESci0C0u64AM6mLR4yDf_HugdbwR643_k26VjXG1vZZH6_zxmI_hKng8nn-fg5k0IJdzzm_urkuIsuEhmBFkxgCi6iZ5Hk6rk851CKWQPr2e_vHcMh2Eayyb3cprF_RUgKSLIEIaq9kPsbeGcmnTACMs9NK3zhixCvR-RiWCbG9wgYbP7Tcnn6LPnuQDMl4Q8.AT1_33eF7xco"
+      };
+    </script>
+
+    <!-- stylesheet and SDK for arcGis -->
+    <link rel="stylesheet" href="https://js.arcgis.com/4.32/esri/themes/light/main.css" />
+    <script src="https://js.arcgis.com/4.32/"></script>
+    
+    <!-- Building the map -->
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="/scripts/main.js"></script>
+  </head>
+  
+  <body>
+    <header>
+        <h1 class="topBar">Temples of The Church of Jesus Christ of Latter-day Saints</h1>
+    </header>
+    <div class="mapBody">
+      <div id="worldMap"></div>
+      <div id="timeSlider"></div>
+    </div>
+  </body>
+
+</html>

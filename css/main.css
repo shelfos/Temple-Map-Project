@@ -1,0 +1,22 @@
+html,
+body,
+#worldMap {
+    padding: 0;
+    margin: 0;
+    height: 97.6%;
+    width: 100%;
+}
+
+.topBar {
+    width: 100%;
+    font-size: 45px;
+    line-height: 54px;
+    font-family: 'Cinzel';
+    color: #807a53;
+    text-shadow: 1px 1px 4px #1c1c1c;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 5px 0px;
+    background-color: #f2eee2;
+}
